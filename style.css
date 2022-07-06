@@ -109,6 +109,8 @@ html {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   opacity: 0;
+   visibility: hidden;
 }
 
 .nav-dropdown-item {
@@ -128,9 +130,7 @@ html {
   color: #fff;
 }
 
-.nav-dropdown-2 {
-  display: none;
-}
+
 
 .nav-list-link {
   width: 100%;
