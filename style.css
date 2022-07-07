@@ -114,8 +114,8 @@ html {
 }
 
 .nav-dropdown-item {
-  width: 25rem;
-  margin: 2rem 10rem;
+  width: 50%;
+  /* margin: 2rem 10rem; */
   display: flex;
   flex-direction: column;
 }
@@ -129,8 +129,6 @@ html {
   font-size: 1.3rem;
   color: #fff;
 }
-
-
 
 .nav-list-link {
   width: 100%;
@@ -271,7 +269,7 @@ html {
 }
 
 .features {
-  width: 70%;
+  /* width: 70%; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -295,16 +293,5 @@ html {
   font-weight: 500;
   line-height: 1.2;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* End of section 3 */
