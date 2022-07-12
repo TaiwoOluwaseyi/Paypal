@@ -809,12 +809,12 @@ html {
     position: fixed;
     top: 0;
     left: 0rem;
-    width: 20rem;
+    width: 30rem;
     height: 100vh;
     background: linear-gradient(to bottom, #032181, #094399, #04207c);
      flex-direction: column;
      /* padding-top: 2rem; */
-     padding: 2rem ;
+     padding: 2rem;
      z-index: 200;
      
     /* display: none; */
@@ -825,6 +825,27 @@ html {
     visibility: visible;
     padding: 1rem;
     justify-content: flex-start;
+  }
+
+  .nav-dropdown-item {
+   width: 100%; 
+   margin: 1rem 1rem 0 1rem;
+  }
+
+  .dropdown-heading a {
+ font-size: 1.6rem;
+ text-transform: uppercase;
+ color: #fff;
+  }
+
+  .dropdown-heading i {
+    font-size: 1.5rem;
+    transform: rotate(90deg);
+    margin-right: 1rem;
+  }
+
+  .nav-dropdown-link-1 {
+    font-size: 1.4rem;
   }
 
   .nav-dropdown-link-2 {
